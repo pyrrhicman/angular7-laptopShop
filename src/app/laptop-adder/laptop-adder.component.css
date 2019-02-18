@@ -1,0 +1,29 @@
+.main-d {
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  background-color: orangered;
+
+}
+input{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin: 2px;
+  padding: 2px;
+
+}
+button {
+  background-color: transparent;
+  color: white;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid white;
+
+}

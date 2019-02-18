@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  lapArray = '';
   title = 'angular7-laptopShop';
+
+  onSomeTextEntered(myData: {stringShit: string}) {
+    this.lapArray = myData.stringShit;
+    console.log('EmitterTrigged Data is :' + myData.stringShit + ':end');
+
+  }
+
+
 }
+

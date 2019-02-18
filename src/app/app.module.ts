@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { LaptopListComponent } from './laptop-list/laptop-list.component';
 import { MyHeaderComponent } from './my-header/my-header.component';
 import { LaptopComponent } from './laptop-list/laptop/laptop.component';
-import { LaptopAdderComponent } from './laptop-list/laptop-adder/laptop-adder.component';
+import { LaptopAdderComponent } from './laptop-adder/laptop-adder.component';
 @NgModule({
   declarations: [
     AppComponent,

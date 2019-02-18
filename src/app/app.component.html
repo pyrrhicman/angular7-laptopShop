@@ -1,5 +1,13 @@
-<div class="main-bg">
+
+<div class="app-component-style">
+
 <app-my-header></app-my-header>
 <!--<div class="main-bg"> WELCOME</div>-->
-<app-laptop-list></app-laptop-list>
+  <div class="topFields">
+
+    <app-laptop-adder
+      (buttonEmitter) = "onSomeTextEntered($event)"></app-laptop-adder>
+  </div>
+
+<app-laptop-list [inputLap]="lapArray"></app-laptop-list>
 </div>

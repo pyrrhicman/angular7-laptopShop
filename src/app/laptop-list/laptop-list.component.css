@@ -1,9 +1,7 @@
-.main-laptop-list-div{
+.laptop-list-component-style{
   box-sizing: border-box;
-
   overflow: hidden;
-  margin: 2px;
-  padding: 2px;
+
 }
 .laptopShowcase{
   display: flex;

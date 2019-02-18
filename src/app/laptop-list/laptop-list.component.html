@@ -1,12 +1,4 @@
-<div class="main-laptop-list-div">
-
-
-  <div class="topFields">
-
-  <app-laptop-adder
-  (buttonEmitter) = "onSomeTextEntered($event)"></app-laptop-adder>
-  </div>
-
+<div class="laptop-list-component-style">
   <div class="laptopShowcase">
   <app-laptop *ngFor="let laptop of lapArray, let i = index"
   [laptopName] = laptop [myIndex]="i"></app-laptop>
