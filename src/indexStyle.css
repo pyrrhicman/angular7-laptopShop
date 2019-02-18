@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px blue dotted;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  margin: 0px;
+}
