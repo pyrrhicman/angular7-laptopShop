@@ -22,7 +22,6 @@ export class LaptopAdderComponent implements OnInit {
        this.buttonEmitter.emit({stringShit : this.laptopNameInput});
 
     }, 50);
-    console.log('ButtonCLiked');
 
   }
 }

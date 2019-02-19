@@ -11,7 +11,6 @@ export class AppComponent {
 
   onSomeTextEntered(myData: {stringShit: string}) {
     this.lapArray = myData.stringShit;
-    console.log('EmitterTrigged Data is :' + myData.stringShit + ':end');
 
   }
 
