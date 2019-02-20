@@ -6,13 +6,12 @@
 .laptopShowcase {
   position: relative;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: stretch;
+  flex-wrap: wrap;
   flex-direction: column;
+  justify-self: left;
   width: 100vw;
   background-color: cyan;
-  padding: 5px;
-  margin: 5px;
+  padding: 2px;
 
 
 }
